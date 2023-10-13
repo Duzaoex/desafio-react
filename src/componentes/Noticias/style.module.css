@@ -1,0 +1,46 @@
+.noticias {
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    background-color: #f8f8f8;
+    width: 350px;
+    height: 150px;
+    white-space: nowrap;
+}
+
+.cardTitulo {
+    font-size: 15px;
+    overflow: hidden;
+}
+
+.cardIntroducao {
+    font-size: 12px;
+    overflow: hidden;
+    max-height: 3em;
+}
+
+.cardData {
+    font-size: 15px;
+}
+
+.cardButton {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #0077FF;
+    font-size: 16px;
+    margin-left: 8px;
+}
