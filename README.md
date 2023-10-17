@@ -1,27 +1,61 @@
-# React + TypeScript + Vite
+Aplicação de Notícias do IBGE
+Descrição
+Esta é uma aplicação de notícias que consome dados da API do IBGE para exibir notícias mais recentes. Os usuários podem visualizar as notícias, marcar suas favoritas e acessar uma página separada para ver suas notícias favoritas.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Capturas de Tela
+Tela Inicial
 
-Currently, two official plugins are available:
+Notícias Favoritas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Como Usar
+Para usar a aplicação, siga estas etapas:
 
-## Expanding the ESLint configuration
+Clone este repositório em seu ambiente de desenvolvimento:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+bash
+Copy code
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+cd nome-do-repositorio
+Instale as dependências:
 
-- Configure the top-level `parserOptions` property like this:
+bash
+Copy code
+npm install
+Inicie a aplicação:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+bash
+Copy code
+npm start
+Acesse a aplicação no seu navegador em http://localhost:3000.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Recursos
+Visualização de notícias mais recentes do IBGE.
+Marcação de notícias como favoritas.
+Visualização de notícias favoritas em uma página separada.
+Dependências
+React: v17.0.2
+react-router-dom: v6.0.0
+Outras dependências podem ser encontradas no arquivo package.json.
+Contribuição
+Se desejar contribuir para este projeto, siga estas etapas:
+
+Crie um fork do repositório.
+Clone o fork em seu ambiente de desenvolvimento.
+Crie uma branch para suas contribuições: git checkout -b minha-contribuicao.
+Faça as alterações desejadas e faça commit delas: git commit -m 'Minha contribuição'.
+Envie as alterações para o repositório fork: git push origin minha-contribuicao.
+Crie um Pull Request com suas contribuições.
+Autores
+Eduardo neris carneiro
+Nome do Colaborador
+Licença
+Este projeto está licenciado sob a Licença MIT. Você pode encontrar mais informações na LICENSE.md.
+
+Agradecimentos
+Agradecemos ao IBGE por fornecer os dados das notícias para esta aplicação.
+
+Status do Projeto
+Este projeto está atualmente em desenvolvimento.
+
+Contato
+Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato conosco através do email: eduardoneriscarneiro#gmail.com.
